@@ -3,8 +3,8 @@ body, html {
 }
 
 #screen {
-    height: 812px;
-    width: 375px;
+    height: 750px;
+    width: 425px;
     border: 1px black solid;
     background-color: white;
     position: fixed;
