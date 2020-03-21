@@ -23,16 +23,48 @@ body, html {
 /* Landing Page start */
 
 #landingpage {
+    /* Display has been changed to none change to flex to view */
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(114.67% 70.79% at 50% 50%, #FFB953 0%, rgba(255, 185, 83, 0.32) 100%), #FFFFFF;
+    height: 100%;
+    width: 100%;
 
+}
+
+#landingpage-btn {
+    position: absolute;
+    width: 282px;
+    height: 76px;
+    left: calc(50% - 282px/2 - 0.5px);
+    top: calc(50% - 76px/2 + 301px);
+    background: #FFB953;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
 
 
 }
 
+#landingpage-btn-txt {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFB953;
+}
 
-
-
-
-
+#elephantlogo {
+    position: absolute;
+    left: -86px;
+    top: -2px;
+    width: 600px;
+    height: 400px;
+} 
 
 
 
