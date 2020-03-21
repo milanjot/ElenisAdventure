@@ -1,0 +1,167 @@
+body, html {
+    margin: 0px;
+}
+
+#screen {
+    height: 750px;
+    width: 425px;
+    border: 1px black solid;
+    background-color: white;
+    position: fixed;
+    top: 9%;
+    left: 35%;
+}
+
+#mainui {
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Landing Page start */
+
+#landingpage {
+    /* Display has been changed to none change to flex to view */
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(114.67% 70.79% at 50% 50%, #FFB953 0%, rgba(255, 185, 83, 0.32) 100%), #FFFFFF;
+    height: 100%;
+    width: 100%;
+
+}
+
+#landingpage-btn {
+    position: absolute;
+    width: 282px;
+    height: 76px;
+    left: calc(50% - 282px/2 - 0.5px);
+    top: calc(50% - 76px/2 + 301px);
+    background: #FFB953;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+
+}
+
+#landingpage-btn-txt {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFB953;
+}
+
+#elephantlogo {
+    position: absolute;
+    left: -86px;
+    top: -2px;
+    width: 600px;
+    height: 400px;
+} 
+
+
+
+/* Landing Page end */
+
+
+
+/* Tutorial Page start */
+
+#tutorial {
+
+}
+
+
+
+
+
+/* Tutorial Page end */
+
+/* Questions Start */
+
+/* Question1 Start */
+
+#question {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90.15deg, #0090CD 0.3%, #18CEEE 48.98%, rgba(9, 148, 207, 0.963631) 99.72%, rgba(255, 255, 255, 0) 99.73%), #9CCBF7;
+
+
+}
+
+#question-topbanner{
+    position: absolute;
+    width: 425px;
+    height: 115px;
+    left: 0px;
+    top: -5px;
+    background: #63ADF2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 25px 25px;
+}
+
+#question-graphic{ 
+    position: absolute;
+    width: 326px;
+    height: 326px;
+    left: 50px;
+    top: 123px;
+    border-radius: 35px;
+    border: 2 px solid black;
+    background: black;
+
+}
+
+
+/* Question1 end */
+
+/* Inductive and Deductive page */
+
+.inductiveoutcome {
+
+
+}
+
+.deductiveincome {
+
+}
+
+/* Inductive and deductive end */
+
+/* Question 2 Start */
+
+#question2 {
+
+
+}
+
+/* Question 2 end  */
+
+/* Question 3 start */
+
+#question3 {
+
+
+}
+/* question 3 end */
+
+/* Final page start */
+
+#finalpage {
+
+}
+
+
+
+
+
+
+/* Final page end */
