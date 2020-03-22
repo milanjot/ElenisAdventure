@@ -108,6 +108,24 @@ body, html {
     border-radius: 0px 0px 25px 25px;
 }
 
+#question-topbanner-txt1 {
+    position: absolute;
+    width: 344px;
+    height: 104px;
+    left: 40px;
+    top: 18px;
+    font-family: Love Ya Like A Sister;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 111% */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
 #question-graphic{ 
     position: absolute;
     width: 326px;
@@ -118,7 +136,124 @@ body, html {
     border: 2 px solid black;
     background: black;
 
-    
+
+}
+
+#question-notice {
+    position: absolute;
+    width: 273px;
+    height: 54px;
+    left: 76px;
+    top: 474px;
+    font-family: Fredoka One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+#question-option1button {
+    position: absolute;
+    width: 163px;
+    height: 43px;
+    left: 15px;
+    top: 524px;
+
+    background: #FFB953;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    align-items: center;
+}
+
+#question-option1button-txt {
+
+    position: relative;
+    width: 146px;
+    height: 43px;
+    bottom: 8px;
+    /* Font + Styling */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#question-option1txt {
+    position: absolute;
+    width: 157px;
+    height: 164px;
+    left: 21px;
+    top: 579px;
+
+    font-family: Love Ya Like A Sister;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    /* or 182% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+#question-option2button {
+    position: absolute;
+    width: 163px;
+    height: 43px;
+    right: 15px;
+    top: 524px;
+
+    background: #FFB953;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    align-items: center;
+}
+
+#question-option2button-txt {
+
+    position: relative;
+    width: 146px;
+    height: 43px;
+    bottom: 8px;
+    /* Font + Styling */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#question-option2txt {
+    position: absolute;
+    width: 157px;
+    height: 164px;
+    right: 21px;
+    top: 579px;
+
+    font-family: Love Ya Like A Sister;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    /* or 182% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
 }
 
 
