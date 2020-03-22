@@ -88,8 +88,8 @@ body, html {
 
 /* Question1 Start */
 
-#question {
-    display: flex;
+.question1 {
+    display: none;
     width: 100%;
     height: 100%;
     background: linear-gradient(90.15deg, #0090CD 0.3%, #18CEEE 48.98%, rgba(9, 148, 207, 0.963631) 99.72%, rgba(255, 255, 255, 0) 99.73%), #9CCBF7;
@@ -97,7 +97,7 @@ body, html {
 
 }
 
-#question-topbanner{
+.question-topbanner{
     position: absolute;
     width: 425px;
     height: 115px;
@@ -108,7 +108,7 @@ body, html {
     border-radius: 0px 0px 25px 25px;
 }
 
-#question-topbanner-txt1 {
+.question-topbanner-txt1 {
     position: absolute;
     width: 344px;
     height: 104px;
@@ -126,7 +126,7 @@ body, html {
 
 }
 
-#question-graphic{ 
+.question-graphic{ 
     position: absolute;
     width: 326px;
     height: 326px;
@@ -139,7 +139,7 @@ body, html {
 
 }
 
-#question-notice {
+.question-notice {
     position: absolute;
     width: 273px;
     height: 54px;
@@ -156,7 +156,7 @@ body, html {
 
 }
 
-#question-option1button {
+.question-option1button {
     position: absolute;
     width: 163px;
     height: 43px;
@@ -169,8 +169,7 @@ body, html {
     align-items: center;
 }
 
-#question-option1button-txt {
-
+.question-option1button-txt {
     position: relative;
     width: 146px;
     height: 43px;
@@ -185,7 +184,7 @@ body, html {
     text-transform: uppercase;
 }
 
-#question-option1txt {
+.question-option1txt {
     position: absolute;
     width: 157px;
     height: 164px;
@@ -206,7 +205,7 @@ body, html {
 
 }
 
-#question-option2button {
+.question-option2button {
     position: absolute;
     width: 163px;
     height: 43px;
@@ -219,8 +218,7 @@ body, html {
     align-items: center;
 }
 
-#question-option2button-txt {
-
+.question-option2button-txt {
     position: relative;
     width: 146px;
     height: 43px;
@@ -235,7 +233,7 @@ body, html {
     text-transform: uppercase;
 }
 
-#question-option2txt {
+.question-option2txt {
     position: absolute;
     width: 157px;
     height: 164px;
@@ -274,7 +272,11 @@ body, html {
 
 /* Question 2 Start */
 
-#question2 {
+.question2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90.15deg, #0090CD 0.3%, #18CEEE 48.98%, rgba(9, 148, 207, 0.963631) 99.72%, rgba(255, 255, 255, 0) 99.73%), #9CCBF7;
 
 
 }
@@ -283,7 +285,11 @@ body, html {
 
 /* Question 3 start */
 
-#question3 {
+.question3 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90.15deg, #0090CD 0.3%, #18CEEE 48.98%, rgba(9, 148, 207, 0.963631) 99.72%, rgba(255, 255, 255, 0) 99.73%), #9CCBF7;
 
 
 }
