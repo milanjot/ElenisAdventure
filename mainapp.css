@@ -30,7 +30,7 @@ body, html {
     background: radial-gradient(114.67% 70.79% at 50% 50%, #FFB953 0%, rgba(255, 185, 83, 0.32) 100%), #FFFFFF;
     height: 100%;
     width: 100%;
-
+    border-radius: 25px;
 }
 
 #landingpage-btn {
