@@ -8,7 +8,7 @@
     left: 35%;
     border-radius: 25px;
 }
-#header{
+#tutorial-header{
     position: absolute;
     width: 425px;
     height: 87px;
@@ -18,7 +18,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
 }
-#header h1{
+#tutorial-header h1{
     position: absolute;
     width: 241px;
     height: 48px;
@@ -33,7 +33,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-#step1 h1{
+#tutorial-step1 h1{
     position: absolute;
     top: 81px;
     width: 133px;
@@ -48,7 +48,7 @@
     text-transform: uppercase;
     color: #000000;
 }
-#step1 #img1{
+#tutorial-step1 #tutorial-img1{
     position: absolute;
     width: 146px;
     height: 146px;
@@ -58,7 +58,7 @@
     border: 1px solid #000000;
     box-sizing: border-box;
 }
-#step1 #arrow1{
+#tutorial-step1 #tutorial-arrow1{
     position: absolute;
     width: 100px;
     height: 40px;
@@ -66,7 +66,7 @@
     top: 265px;
 }
 
-#step2 h1{
+#tutorial-step2 h1{
     position: absolute;
     top: 270px;
     width: 133px;
@@ -81,7 +81,7 @@
     text-transform: uppercase;
     color: #000000;
 }
-#step2 #img2{
+#tutorial-step2 #tutorial-img2{
     position: absolute;
     width: 146px;
     height: 146px;
@@ -92,7 +92,7 @@
     box-sizing: border-box;
 }
 
-#step2 #arrow2{
+#tutorial-step2 #tutorial-arrow2{
     position: absolute;
     width: 100px;
     height: 40px;
@@ -101,7 +101,7 @@
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-#step3 h1{
+#tutorial-step3 h1{
     position: absolute;
     width: 133px;
     height: 35px;
@@ -116,7 +116,7 @@
     text-transform: uppercase;
     color: #000000;
 }
-#step3 img{
+#tutorial-step3 img{
     position: absolute;
     width: 146px;
     height: 146px;
