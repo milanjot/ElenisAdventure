@@ -1,0 +1,98 @@
+#screen {
+    height: 750px;
+    width: 425px;
+    border: 1px black solid;
+    background-color: aqua;
+    position: fixed;
+    top: 9%;
+    left: 35%;
+    border-radius: 25px;
+}
+#final-header{
+    position: absolute;
+    width: 425px;
+    height: 135px;
+    left: 0px;
+    top: -26px;
+    background: #63ADF2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+#final-header h1{
+    position: absolute;
+    width: 300px;
+    height: 48px;
+    left: 62.5px;
+    top: 37px;
+    font-family: Fredoka One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.final-explanation{
+    font-family: Ponnala;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: azure;
+}
+#final-ind1{
+    position: absolute;
+    width: 237px;
+    height: 64px;
+    left: 94px;
+    top: 140px;
+}
+#final-ind2{
+    position: absolute;
+    width: 205px;
+    height: 105px;
+    left: 110px;
+    top: 250px;
+}
+#final-line1{
+    position: absolute;
+    width: 160px;
+    height: 0px;
+    left: 5px;
+    top: 400px;
+    border: 1px solid azure;
+    transform: rotate(180deg);
+}
+#final-line2{
+    position: absolute;
+    width: 160px;
+    height: 0px;
+    left: 260px;
+    top: 400px;    
+    border: 1px solid azure;
+    transform: rotate(180deg);
+}
+#final-vs p{
+    position: absolute;
+    width: 56px;
+    height: 42px;
+    left: 184.5px;
+    top: 355px;
+}
+#final-ded1{
+    position: absolute;
+    width: 237px;
+    height: 64px;
+    left: 94px;
+    top: 430px;
+}
+#final-ded2{
+    position: absolute;
+    width: 205px;
+    height: 105px;
+    left: 110px;
+    top: 550px;
+}
