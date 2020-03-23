@@ -85,7 +85,12 @@ display: none;
 }
 
 #End_induct{
-    
+    height: 750px;
+    width: 425px;
+    background-color: rgb(0, 157, 255);
+    position: fixed;
+    top: 9%;
+    left: 35%;
 }
 .induct_banner {
     width: 425px;
@@ -167,7 +172,7 @@ display: none;
 /* Question 2 Start */
 
 #question2 {
-display:none;
+    display:none;
 
 }
 
@@ -176,7 +181,7 @@ display:none;
 /* Question 3 start */
 
 #question3 {
-
+    display:none;
 
 }
 /* question 3 end */
@@ -184,7 +189,7 @@ display:none;
 /* Final page start */
 
 #finalpage {
-
+    display:none;
 }
 
 
