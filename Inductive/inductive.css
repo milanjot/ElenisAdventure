@@ -1,0 +1,200 @@
+body, html {
+    margin: 0px;
+}
+
+#screen {
+    height: 750px;
+    width: 425px;
+    border: 1px black solid;
+    /* background-color: white; */
+    position: fixed;
+    top: 9%;
+    left: 35%;
+}
+
+#mainui {
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Landing Page start */
+
+#landingpage {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Landing Page end */
+
+
+
+/* Tutorial Page start */
+
+#tutorial {
+
+}
+
+
+
+
+
+/* Tutorial Page end */
+
+/* Questions Start */
+
+/* Question1 Start */
+
+#Question1 {
+display: none;
+}
+
+
+
+/* Question1 end */
+
+/* Inductive and Deductive page */
+
+#inductiveoutcome {
+    height: 750px;
+    width: 425px;
+    background-color: rgb(0, 157, 255);
+    position: fixed;
+    top: 9%;
+    left: 35%;
+}
+
+#q2induct {
+    height: 750px;
+    width: 425px;
+    background-color: rgb(0, 157, 255);
+    position: fixed;
+    top: 9%;
+    left: 35%;
+}
+
+#End_induct{
+    height: 750px;
+    width: 425px;
+    background-color: rgb(0, 157, 255);
+    position: fixed;
+    top: 9%;
+    left: 35%;
+}
+.induct_banner {
+    width: 425px;
+    height: 130px;
+    background-color: rgb(68, 175, 241);
+    position: fixed;
+    border-radius: 0% 0% 40px 40px;
+    box-shadow:  0px 9px 5px rgb(0, 109, 177);
+    top: 9%;
+    left: 35%;
+}
+
+.induct_banner h1{
+    bottom: 5px;
+    left: 105px;
+    position: absolute;
+    font-family: 'Fredoka One';
+}
+
+
+.induct_desc {
+    width: 425px;
+    height: 300px;
+    margin-top: 150px;
+}
+
+.induct_desc h1 {
+    margin-top:30px;
+    margin-left: 85px;
+    font-family: 'Fredoka One';
+}
+
+.induct_desc p {
+    padding: 25px;
+    font-size: 20px;
+    font-family: 'Love Ya Like A Sister';
+    text-align: center;
+}
+
+.induct_image {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-left: 60px;
+
+}
+.induct_image img {
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.induct_button{
+    width: 250px;
+    height: 75px;
+    background-color: rgb(0, 109, 177);
+    position: absolute;
+    bottom: 0;
+    left: 85px;
+    margin-bottom:60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    color: white;
+}
+
+
+.deductiveincome {
+
+}
+
+/* Inductive and deductive end */
+
+/* Question 2 Start */
+
+#question2 {
+    display:none;
+
+}
+
+/* Question 2 end  */
+
+/* Question 3 start */
+
+#question3 {
+    display:none;
+
+}
+/* question 3 end */
+
+/* Final page start */
+
+#finalpage {
+    display:none;
+}
+
+
+
+
+
+
+/* Final page end */
