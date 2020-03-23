@@ -25,9 +25,9 @@
     <div id="screen"> 
         <div id="landingpage"> 
         
-            <div id="landingpage-btn">
+            <div id="landingpage-btn" onclick="Start()">
             </div>
-            <h1 id="landingpage-btn-txt"> Let's Start </h1> 
+            <h1 id="landingpage-btn-txt" onclick="Start()"> Let's Start </h1> 
                 <img id="elephantlogo" src="elephant.png" alt="">
             
         </div>
@@ -57,7 +57,7 @@
                 </h1>
                 <img src="" alt="">
             </div>
-            <button>CONTINUE <span>&#8594;</span></button>
+            <button onclick="tutorial()">CONTINUE <span>&#8594;</span></button>
           </div>
 
         <div id="question1">
@@ -67,7 +67,7 @@
             </div>
             <div class="question-graphic"> </div>
             <h1 class="question-notice"> Pick an option! </h1>
-            <button class="question-option1button">
+            <button class="question-option1button" onclick="firstInduct()">
                 <h1 class="question-option1button-txt">Option 1 </h1>
             </button>
             <p class="question-option1txt"> Eleni sees that many of the other animals are taking the swamp bridge.
@@ -75,7 +75,7 @@
                 only animals that are taking the crosswalk are holding hiking gear.<u> Therefore Eleni will take the
                     swamp bridge. </u>
             </p>
-            <button class="question-option2button">
+            <button class="question-option2button" onclick="firstDeduct()">
                 <h1 class="question-option2button-txt">Option 2 </h1>
             </button>
             <p class="question-option2txt"> Eleni’s brochure is showing that the bridge will get her to the other
@@ -97,7 +97,7 @@
                         <img src=""> 
                     </div>
                 </div>
-                <button class="induct_button">
+                <button class="induct_button" onclick="questionTwo()">
                     Next
                 </button>
             </div>
@@ -114,7 +114,7 @@
                         <img src=""> 
                     </div>
                 </div>
-                <button class="deduct_button">
+                <button class="deduct_button" onclick="questionTwo()">
                     Next
                 </button> 
             </div>
@@ -128,14 +128,14 @@
             </div>
             <div class="question-graphic"> </div>
             <h1 class="question-notice"> Pick an option! </h1>
-            <button class="question-option1button">
+            <button class="question-option1button" onclick="secondInduct()">
                 <h1 class="question-option1button-txt">Option 1 </h1>
             </button>
-            <p class="question-option1txt"> she looks at a few apples on the tree and notices they are all not fully
+            <p class="question-option1txt" > she looks at a few apples on the tree and notices they are all not fully
                 red yet. She also notices they are pretty small. Eleni does not eat the apples
             </p>
-            <button class="question-option2button">
-                <h1 class="question-option2button-txt">Option 2 </h1>
+            <button class="question-option2button" onclick="secondDeduct()">
+                <h1 class="question-option2button-txt" >Option 2 </h1>
             </button>
             <p class="question-option2txt"> Eleni asks a jungle helper about the tree, the jungle helper told her
                 how old the tree was. The jungle helper tells her they’re probably fully grown. Eleni will eat the
@@ -154,7 +154,7 @@
                     <img src=""> 
                 </div>
             </div>
-            <button class="induct_button">
+            <button class="induct_button" onclick="questionThree()">
                 Next
             </button>
 
@@ -173,7 +173,7 @@
                     <img src=""> 
                 </div>
             </div>
-            <button class="deduct_button">
+            <button class="deduct_button" onclick="questionThree()">
                 Next
             </button>
 
@@ -189,13 +189,13 @@
             </div>
             <div class="question-graphic"> </div>
             <h1 class="question-notice"> Pick an option! </h1>
-            <button class="question-option1button">
+            <button class="question-option1button" onclick="thirdInduct()">
                 <h1 class="question-option1button-txt">Option 1 </h1>
             </button>
             <p class="question-option1txt"> she looks at a few apples on the tree and notices they are all not fully
                 red yet. She also notices they are pretty small. Eleni does not eat the apples
             </p>
-            <button class="question-option2button">
+            <button class="question-option2button" onclick="thirdDeduct()">
                 <h1 class="question-option2button-txt">Option 2 </h1>
             </button>
             <p class="question-option2txt"> Eleni asks a jungle helper about the tree, the jungle helper told her
@@ -217,7 +217,7 @@
                     <img src=""> 
                 </div>
             </div>
-            <button class="induct_button">
+            <button class="endinduct_button" onclick="comparison()">
                 Continue
             </button>
         </div>        
@@ -234,7 +234,7 @@
                     <img src=""> 
                 </div>
             </div>
-            <button class="deduct_button">
+            <button class="enddeduct_button" onclick="comparison()">
                 Continue
             </button>
         </div>
@@ -278,6 +278,7 @@
 
             
 </div>
+<script src="main.js"></script>
 <script src="Yunus_Final/final.js"></script>
 <script src="Yunus_Tutorial/tutorial.js"></script>
 <script src="Milan_Question1/Question1.js"></script>

@@ -20,50 +20,6 @@ body, html {
     height: 100vh;
 }
 
-/* Landing Page start */
-
-#landingpage {
-
-
-
-}
-
-
-
-
-
-
-
-
-
-/* Landing Page end */
-
-
-
-/* Tutorial Page start */
-
-#tutorial {
-
-}
-
-
-
-
-
-/* Tutorial Page end */
-
-/* Questions Start */
-
-/* Question1 Start */
-
-#Question1 {
-    display:none;
-}
-
-
-
-/* Question1 end */
-
 /* Inductive and Deductive page */
 
 
@@ -92,6 +48,7 @@ body, html {
     position: fixed;
     top: 9%;
     left: 35%;
+    display: none;
 }
 
 .deduct_banner {
@@ -162,36 +119,25 @@ body, html {
     font-family: 'Montserrat';
     font-size: 50px;
     color: white;
+    cursor: pointer;
+}
+
+.enddeduct_button{
+    width: 250px;
+    height: 75px;
+    background-color: rgb(0, 109, 177);
+    position: absolute;
+    bottom: 0;
+    left: 85px;
+    margin-bottom:60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
 }
 
 /* Inductive and deductive end */
-
-/* Question 2 Start */
-
-#question2 {
-    display:none;
-
-}
-
-/* Question 2 end  */
-
-/* Question 3 start */
-
-#question3 {
-    display:none;
-
-}
-/* question 3 end */
-
-/* Final page start */
-
-#finalpage {
-
-}
-
-
-
-
-
-
-/* Final page end */

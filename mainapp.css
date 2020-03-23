@@ -24,7 +24,7 @@ body, html {
 
 #landingpage {
     /* Display has been changed to none change to flex to view */
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     background: radial-gradient(114.67% 70.79% at 50% 50%, #FFB953 0%, rgba(255, 185, 83, 0.32) 100%), #FFFFFF;
@@ -42,8 +42,7 @@ body, html {
     background: #FFB953;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
-
-
+    cursor: pointer;
 }
 
 #landingpage-btn-txt {
@@ -55,7 +54,9 @@ body, html {
     line-height: 44px;
     text-align: center;
     text-transform: uppercase;
-    color: #FFB953;
+    color: white;
+    bottom: -300px;
+    cursor: pointer;
 }
 
 #elephantlogo {
@@ -70,68 +71,57 @@ body, html {
 
 /* Landing Page end */
 
-
-
-/* Tutorial Page start */
-
 #tutorial {
-    background-color: aqua;
-
+ display:none;
+ border-radius: 25px;
 }
 
-/* Tutorial Page end */
-
-/* Questions Start */
-
-/* Question1 Start */
-
-#Question1 {
-
+#inductiveoutcome {
+    display: none;
+    border-radius: 25px;
 }
 
-
-
-/* Question1 end */
-
-/* Inductive and Deductive page */
-
-.inductiveoutcome {
-
-
+#q2induct {
+    display:none; 
+    border-radius: 25px;
 }
 
-.deductiveincome {
-
+#End_induct {
+    display:none; 
+    border-radius: 25px;
 }
 
-/* Inductive and deductive end */
+#first_deduct {
+    display:none; 
+    border-radius: 25px;
+}
 
-/* Question 2 Start */
+#mid_deduct {
+    display:none; 
+    border-radius: 25px;
+}
+
+#end_enduct {
+    display:none;
+    border-radius: 25px; 
+}
+
+#question1 {
+    display:none; 
+    border-radius: 25px;
+}
 
 #question2 {
-
-
+    display:none; 
+    border-radius: 25px;
 }
-
-/* Question 2 end  */
-
-/* Question 3 start */
 
 #question3 {
-
-
-}
-/* question 3 end */
-
-/* Final page start */
-
-#finalpage {
-
+    display:none;
+    border-radius: 25px; 
 }
 
-
-
-
-
-
-/* Final page end */
+#final {
+    display:none; 
+    border-radius: 25px;
+}

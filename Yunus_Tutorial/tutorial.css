@@ -142,6 +142,7 @@
     text-align: center;
     text-transform: uppercase;
     color: azure;
+    cursor: pointer;
 }
 #tutorial span{
     content: "\2192";
