@@ -1,0 +1,309 @@
+body, html {
+    margin: 0px;
+}
+
+#screen {
+    height: 750px;
+    width: 425px;
+    border: 1px black solid;
+    background-color: white;
+    position: fixed;
+    top: 9%;
+    left: 35%;
+}
+
+#mainui {
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Landing Page start */
+
+#landingpage {
+    /* Display has been changed to none change to flex to view */
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(114.67% 70.79% at 50% 50%, #FFB953 0%, rgba(255, 185, 83, 0.32) 100%), #FFFFFF;
+    height: 100%;
+    width: 100%;
+
+}
+
+#landingpage-btn {
+    position: absolute;
+    width: 282px;
+    height: 76px;
+    left: calc(50% - 282px/2 - 0.5px);
+    top: calc(50% - 76px/2 + 301px);
+    background: #FFB953;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+
+}
+
+#landingpage-btn-txt {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFB953;
+}
+
+#elephantlogo {
+    position: absolute;
+    left: -86px;
+    top: -2px;
+    width: 600px;
+    height: 400px;
+} 
+
+
+
+/* Landing Page end */
+
+
+
+/* Tutorial Page start */
+
+#tutorial {
+
+}
+
+
+
+
+
+/* Tutorial Page end */
+
+/* Questions Start */
+
+/* Question1 Start */
+
+.question1 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90.15deg, #0090CD 0.3%, #18CEEE 48.98%, rgba(9, 148, 207, 0.963631) 99.72%, rgba(255, 255, 255, 0) 99.73%), #9CCBF7;
+
+
+}
+
+.question-topbanner{
+    position: absolute;
+    width: 425px;
+    height: 115px;
+    left: 0px;
+    top: -5px;
+    background: #63ADF2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 25px 25px;
+}
+
+.question-topbanner-txt1 {
+    position: absolute;
+    width: 344px;
+    height: 104px;
+    left: 40px;
+    top: 18px;
+    font-family: Love Ya Like A Sister;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 111% */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.question-graphic{ 
+    position: absolute;
+    width: 326px;
+    height: 326px;
+    left: 50px;
+    top: 123px;
+    border-radius: 35px;
+    border: 2 px solid black;
+    background: black;
+
+
+}
+
+.question-notice {
+    position: absolute;
+    width: 273px;
+    height: 54px;
+    left: 76px;
+    top: 474px;
+    font-family: Fredoka One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.question-option1button {
+    position: absolute;
+    width: 163px;
+    height: 43px;
+    left: 15px;
+    top: 524px;
+
+    background: #FFB953;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    align-items: center;
+}
+
+.question-option1button-txt {
+    position: relative;
+    width: 146px;
+    height: 43px;
+    bottom: 8px;
+    /* Font + Styling */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.question-option1txt {
+    position: absolute;
+    width: 157px;
+    height: 164px;
+    left: 21px;
+    top: 579px;
+
+    font-family: Love Ya Like A Sister;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    /* or 182% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.question-option2button {
+    position: absolute;
+    width: 163px;
+    height: 43px;
+    right: 15px;
+    top: 524px;
+
+    background: #FFB953;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    align-items: center;
+}
+
+.question-option2button-txt {
+    position: relative;
+    width: 146px;
+    height: 43px;
+    bottom: 8px;
+    /* Font + Styling */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.question-option2txt {
+    position: absolute;
+    width: 157px;
+    height: 164px;
+    right: 21px;
+    top: 579px;
+
+    font-family: Love Ya Like A Sister;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    /* or 182% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+
+/* Question1 end */
+
+/* Inductive and Deductive page */
+
+.inductiveoutcome {
+
+
+}
+
+.deductiveincome {
+
+}
+
+/* Inductive and deductive end */
+
+/* Question 2 Start */
+
+.question2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90.15deg, #0090CD 0.3%, #18CEEE 48.98%, rgba(9, 148, 207, 0.963631) 99.72%, rgba(255, 255, 255, 0) 99.73%), #9CCBF7;
+
+
+}
+
+/* Question 2 end  */
+
+/* Question 3 start */
+
+.question3 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90.15deg, #0090CD 0.3%, #18CEEE 48.98%, rgba(9, 148, 207, 0.963631) 99.72%, rgba(255, 255, 255, 0) 99.73%), #9CCBF7;
+
+
+}
+/* question 3 end */
+
+/* Final page start */
+
+#finalpage {
+
+}
+
+
+
+
+
+
+/* Final page end */
