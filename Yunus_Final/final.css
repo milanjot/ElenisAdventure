@@ -96,3 +96,12 @@
     left: 110px;
     top: 550px;
 }
+
+#final{
+    height: 750px;
+    width: 425px;
+    background-color: rgb(0, 157, 255);
+    position: fixed;
+    top: 9%;
+    left: 35%;
+}
